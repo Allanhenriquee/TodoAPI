@@ -26,4 +26,8 @@
     <ProjectReference Include="..\..\src\ToDoAPI\ToDoAPI.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="UnitTest1.cs" />
+  </ItemGroup>
+
 </Project>
